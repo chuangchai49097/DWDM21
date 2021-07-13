@@ -1,0 +1,14 @@
+ Data mining คือ ความรู้ที่ค้นพบได้จากข้อมูล
+    -เราสามารถสกัดข้อมูลที่สำคัญจากดาต้าที่มีจำนวนมากได้
+ มีหลายชื่อเรียก
+    -Knowledge discovery (mining) in databases (KDD), knowledge extraction,
+    data/pattern analysis, data archeology, data dredging, information
+    harvesting, business intelligence, etc.
+ Data Mining Functions: (1) Generalization
+    -รู้การสร้างคลังข้อมูล บูรณาการข้อมูลได้
+ Data Mining Functions: (2) Pattern Discovery
+    -หารูปแบบของข้อมูล
+ Data Mining Functions: (3) Classification
+     -จำแนกประเภทได้
+ Data Mining Functions: (4) Cluster Analysis
+     -วิเคราะห์กลุ่มข้อมูลได้
