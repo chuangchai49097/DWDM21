@@ -1,0 +1,60 @@
+Chapter 2
+data เมทริกซ์ 
+-1มิติข้อมูลเดียว 1
+
+-2มิติ 1 2 3
+
+-3มิติ 
+   1 2 3
+   2 3 4
+   3 4 5
+
+-4มิติ
+   1 2 3    1 2 3
+   2 3 4    2 3 4
+   3 4 5    3 4 5
+
+-5มิติ
+   1 2 3    1 2 3
+   2 3 4    2 3 4
+   3 4 5    3 4 5
+   
+   1 2 3    1 2 3
+   2 3 4    2 3 4
+   3 4 5    3 4 5
+
+Types of data sets:(1)Record Data
+-Crosstab แยก attribute 2 ฟังชั่น
+Types of data sets:(2)Graphs and Networks
+-การเชื่อมโยงเตรือข่ายข้อมูล
+Types of data sets:(3)Order Data
+-มีเวลาเข้ามาเกี่ยวข้อง เช่น เฟรมต่อวินาทีในวิดีโอ
+Types of data sets:(4)Spatial,image and multimedia Data
+-เช่่น สีใน pixel  ภาพสีในแผนที่
+
+Important Characteristics of structured Data
+-Dimensionality มิติ
+-sparsity สนใจในตรงที่มีข้อมูล
+-Resolution ความชัดเจน
+-distribution การกระจายตัวของ Data
+
+Data Objects
+
+Attributes
+สิ่งเสริมข้อมูล
+Attributes Type
+-Nominal-นามบัญญัติแทนชื่อ
+-Bunary-2 Yes No
+-Ordinal-ใช้ค่าทางคณิตแล้วมีความหมาย
+
+Numeric Attribute Type
+-Interval
+-Ratio
+
+
+
+
+
+
+
+   
