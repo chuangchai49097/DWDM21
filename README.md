@@ -15,12 +15,16 @@ Group Name:
 5 กิตติคุณ เกียรติศักดิ์ศิริ
 บทที่ 1 Introduction
 
-#สารบัญ
+# สารบัญ
 Lecture
+
 (https://github.com/Thitichaya2000/DWDM21/blob/main/HW%20Chapter%201.pdf)
+
 บทที่ 2 Getting to Know Your Data
 
+
 Lecture
+
 (https://github.com/Thitichaya2000/DWDM21/blob/main/Chapter%202.pdf)
 (https://github.com/Thitichaya2000/DWDM21/blob/main/Chapter2.pdf)
 Github
