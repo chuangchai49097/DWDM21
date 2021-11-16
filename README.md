@@ -10,193 +10,199 @@ Chuangchai Janmanee 623020519-5
 #### 4 นวลแพร พนาวัฒนวงค์
 #### 5 กิตติคุณ เกียรติศักดิ์ศิริ
 
+# สารบัญ
+#### บทที่ 1: Introduction
 
-# Lecture
-#(https://github.com/Thitichaya2000/DWDM21/blob/main/HW%20Chapter%201.pdf)
-บทที่ 2 Getting to Know Your Data
+#### Introduction (บรรยาย)
+#### Data Warehouse & Data Mining
+#### Data Mining (การทำเหมืองข้อมูล)
+#### Knowledge Discovery (KDD) Process
+#### ขั้นตอนการทำเหมืองข้อมูล
+#### เทคนิคของ Data Mining
+#### บทที่ 2: Getting to Know Your Data
 
-Lecture
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Chapter%202.pdf)
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Chapter2.pdf)
-Github
-Basic python
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Data101(Chapter2).ipynb)
-Variables
-Data structure
-Loop
-Condition
-Function
-Data Exploration
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Data102(Chapter2).ipynb)
-Boxplot
-Times Series Plot
-Data Visualization
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Data_Visualization.ipynb)
-Scatter plot
-Plot
-Bar chart
-Grouped Barchart
-Stacked Barchart
-Histogram
-Distance Numpy
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Distance_Numpy.ipynb)
-Numpy Array
-สร้าง numpy array (matrix) จาก list
-สร้าง matrix เริ่มต้น (zeros, ones)
-สร้าง matrix random
-matrix properties
-Indexing & Slicing
-Useful functions
-Distance Matrix
-Euclidean Distance (L2-norm)
-Distance function
-Manhattan Distance (L1-norm)
-Distance of Binary Value
-บทที่ 3 [Data Preprocessing]
+#### มิติของ Data (บรรยาย)
+#### Basic Python
+#### Varibles
+#### Casting
+#### Data Structure (list)
+#### วิธีสร้าง list ว่าง
+#### เติมค่าลงใน list (.append())
+#### การชี้ค่าใน list (indexing)
+#### list slicing
+#### format string
+#### Loop
+#### Nested loop
+#### Condition (if statment)
+#### Function
+#### normal
+#### ไม่มี input
+#### ไม่มี output
+#### ไม่มีทั้ง input และ output
+#### ลักษณะของ input (parameter)
+#### Pandas
+#### Read Data
+#### .head() & .tail() (ดูหัวตาราง ท้ายตาราง)
+#### Boxplot
+#### Time Series plot
+#### Visualization
+#### Scatter plot
+#### Normal
+#### กำหนดขนาดจุด
+#### กำหนดสี
+#### เปลี่ยนลักษณะของจุดเป็นอย่างอื่น
+#### Plot (เป็นการพล็อตกราฟที่เชื่อมกัน)
+#### Bar Chart
+#### Grouped Barchart (พล็อตเทียบด้านข้าง)
+#### Stacked Barchart (พล็อตเทียบในแท่งเดียวกัน)
+#### Histogram
+#### Distance Numpy
+#### Numpy Array
+#### สร้าง numpy array (matrix)
+#### matrix transpose
+#### สร้าง matrix เริ่มต้น (zeros,ones)
+#### สร้าง matrix random
+#### matrix properties
+#### matrix properties
+#### Useful functions
+#### เขียน function วนลูปหา sum, mean, max, min
+#### Distance Matrix
+#### Euclidean Distance (L2-norm)
+#### Distance function
+#### Manhattan Distance (L1-norm)
+#### Distance of Binary Value
+#### บทที่ 3: Data Preprocessig
 
-lecture
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Chapter%203.Data%20Preprocessing.pdf)
-Github
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Data_Preprocessing(Chapter_3).ipynb)
-ชี้ข้อมูลในตาราง
-ชี้แบบธรรมดาใช้ [ชื่อ column] [index]
-ชี้แบบ .iloc (มองข้อมูลเป็น matrix)
-Missing Values NAN NULL NA
-Handling Missing Value 1 (ลบ missing)
-Handling Missing Value 1.5 (ลบค่า Missing เฉพาะใน Column ที่เราสนใจ)
-Handing Missing Value 2 (แทนด้วย class ใหม่ (unknown))
-Handing Missing Value 3 (แทนด้วย class ใหม่ (ค่าที่เหมาะสม))
-Handing Missing Value 4 (แทนด้วย ค่ากลาง)
-Handing Missing Value 5 (แทนด้วย ค่ากลางของ Samples ใน Class เดียวกัน)
-Select date by values [PD]
-ต่อตารางแนวแกน Y [PD]
-การเรียงข้อมูล [PD]
-Outlier
-การรวมตาราง Data Integration (ต่อตารางในแนวแกน x)
-รวม 2 ตาราง (.merge())
-เลือกเฉพาะ column ที่ต้องการมาแปะ (.map())
-Group by (pandas)
-[PD] save ตารางเอาไปใช้ที่อื่น
-[PD] การสร้างตาราง
-บทที่ 4 [Data Warehousing and On-line Analytical Processing]
+#### Data Preprocessig
+#### การชี้ข้อมูลในตาราง
+#### ชี้แบบธรรมดา [ชื่อคอลัมน์][index]
+#### ชี้แบบ .iloc[] (มองข้อมูลเป็น matrix)
+#### Missing Values
+#### Handling Missing value 1 (ลบค่า missing)
+#### เขียน function หาว่าการทำ dropna() ทำให้ข้อมูลหายไปกี่ %
+#### Handling Missing Value 1.5 (ลบค่า missing เฉพาะใน column ที่เราสนใจ)
+#### Handling Missing Value 2 (แทนด้วย class ใหม่ (unknown))
+#### Handling Missing Value 3 (แทนด้วย class ใหม่ (ค่าที่เหมาะสม))
+#### Handling Missing Value 4 (แทนด้วย ค่ากลาง)
+#### Handling Missing Value 5 (แทนด้วย ค่ากลางของ samples ใน class เดียวกัน)
+#### Select data by values [PD]
+#### สร้าง list ของ boolean
+#### นำ list ของ boolean มาเลือกค่าในตาราง
+#### ต่อตางแนวแกน Y [PD]
+#### Handling Missing Value 5 (แทนด้วย ค่ากลางของ sample ใน class เดียวกัน) ต่อ
+#### การเรียงข้อมูล [PD]
+#### หา Outlier
+#### เขียนฟังค์ชั่น คำนวณ หา Q1,Q2,Q3,IQR,vmin,vmax โดยรับ input เป็น output ขอบ boxplot
+#### เขียน function box_vals ให้สามารถรับ input ที่ box plot วาดแบบแนวนอนได้ (vert = False)
+#### Panda's looping (.ilerrows)
+#### การรวมตาราง (ต่อตารางในแนวแกน x)
+#### รวม 2 ตาราง (.merge())
+#### เลือกมาเฉพาะ column ที่ต้องการมาแปะ (.map())
+#### Group by (pandas)
+#### [PD] save ตารางเอาไปใช้ที่อื่น
+#### [PD] การสร้างตาราง
+#### บทที่ 4: Data Warehousing and On-line Analytical Processing
 
-lecture
-(https://github.com/Thitichaya2000/DWDM21/blob/main/04OLAP.pdf)
-What is a Data Warehouse?
-From Tables and Spreadsheets to Data Cubes
-Conceptual Modeling of Data Warehouses
-Star Schema: An Example
-Snowflake Schema: An Example
-Fact Constellation: An Example
-Typical OLAP Operations
-Roll up (drill-up)
-Drill down (roll down)
-Slice and dice
-Pivot (rotate)
-Drill across
-Drill through
-บทที่ 5 Association Rules
+#### บทที่ 5: Association Rules
 
-lecture
-(https://github.com/Thitichaya2000/DWDM21/blob/main/06FPBasic.pdf)
-Basic Concepts
-What Is Pattern Discovery?
-k-Itemsets and Their Supports
-Frequent Itemsets (Patterns)
-From Frequent Itemsets to Association Rules
-Mining Frequent Itemsets and Association Rules
-Efficient Pattern Mining Methods
-Apriori Algorithm
-Apriori Pruning and Scalable Mining Methods
-A Candidate Generation & Test Approach
-The Apriori Algorithm
-Github
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Chapter6_Association_Rules.ipynb)
-เตรียม Data สำหรับ (Fequence Pattern) Association Rule
-Apriori
-บทที่ 6 [Classification]
+#### Mining Frequent Patterns, Association and Correlations (บรรยาย)
+#### What Is Pattern Discovery
+#### Basic Concepts
+#### Apriori
+#### Data 'reduced_marketbasket' Case
+#### HW
+#### มีประเทศสาขาของ Supermarket นี้ทั้งหมดกี่ประเทศ
+#### วาดกราฟสรุปจำนวน items และ ยอดขายของแต่ละประเทศ
+#### เพิ่มคอลัมน์ ยอดขาย (Quantity x UnitPrice)
+#### จัดกลุ่มและหายอดขายรวม
+#### จัดกลุ่มและหายอดขายรวม
+#### เรียนต่อ
+#### ลบ records ที่ถูก cancel ออกไป
+#### เตรียม data สำหรับ (Fequence Pattern) Association Rule
+#### Apriori
+#### บทที่ 6: Classification
 
-Lecture
-(https://github.com/Thitichaya2000/DWDM21/blob/main/08ClassBasic.pdf)
-Basic Concepts
-Supervised vs. Unsupervised Learning (1)
-Supervised vs. Unsupervised Learning (2)
-Prediction Problems: Classification vs. Numeric Prediction
-Classification—Model Construction, Validation and Testing
-Decision Tree Induction
-An Example
-Information Gain
-Load Data
-Train Model
-import (เรียกใช้ algorithm algorithm ที่เราต้องการ)
-define (กำหนด parameters ให้กับ model)
-train (ฝึกสอนตัวแบบ)
-Plot tree
-Evalution
-Random
-Advanced Tree
-TEST
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Lecture141064.pdf)
-Bayes’ Theorem: Basics
-Naïve Bayes
-ClassifierCategorical vs. Continuous Valued Features
-Training Dataset
-Lazy Learner: Instance-Based Methods
-The k-Nearest Neighbor Algorithm
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Lecture191064.pdf)
-Model Evaluation and Selection
-Classifier Evaluation Metrics
-Confusion Matrix
-Accuracy, Error Rate,Sensitivity and Specificity
-Precision and Recall, and F-measures
-Neural Network for Classification
-Perceptron
-Github
-Decision Tree
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Chapter7_Classification(Decision_Tree).ipynb)
-Load data
-Train Model
-Evaluation
-Advanced Tree
-Test
-KNN
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Chap7_Classification_(KNN_NN).ipynb)
-Load data
-Split data
-Train Model
+#### Classification: Basic Concepts (บรรยาย)
+#### Supervised vs Unsupervised Learning
+#### Clssification vs Numeric Prediction
+#### Classification-Model Construction, Validation and Testing
+#### Decision Tree Induction
+#### Information Gain
+#### Decision Tree คำนวนมือ (บรรยาย การบ้าน)
+#### Decision Tree
+#### Load Data
+#### Train Model
+#### import (เรียกใช้ algorithm ที่เราต้องการ)
+#### Define (กำหนด parameters ให้กับ model)
+#### train (ฝึกสอนตัวแบบ)
+#### plot tree
+#### Advanced Tree
+#### ใช้ค่า Default
+#### import
+#### Define
+#### Train
+#### Evaluate
+#### ต้นไม้ที่ใช้เกณฑ์ Entropy มีความสูงไม่เกิน 4 ชั้น
+#### ต้นไม้ที่ใช้เกณฑ์ Gini มีใบไม่เกิน 25 ใบ
+#### ต้นไม้ที่ใช้เกณฑ์ Entropy และใช้การ split แบบ random
+#### ต้นไม้ที่ใช้เกณฑ์ Entropy และ ใช้การ split แบบ random และ ข้อมูลที่อยู่ในใบขั้นต่ำ = 2 และ เริ่ม random ที่จุดที่ 6
+#### K-Nearest Neighbor & Neural Network
+#### Load data
+#### Split Data
+#### K-Nearest Neighbor (KNN)
+#### Trian Model
+#### import
+#### knn1 (ถามเพื่อนบ้านที่ใกล้สุด 3 คน และเชื่อทุกคนเท่าๆ กัน)
+#### knn2 (ถามเพื่อนบ้านที่ใกล้ที่สุด 10 คน และเชือคนที่อยู่ใกล้มากกว่าอยู่ไกล)
+knn3 (เชื่อเพื่อนบ้านที่ใกล้ที่สุด 1 คน)
 Retrain & Evaluate
 Neural Network
+inport
+Define
+Train-Test
 Evaluation
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Chap7_Classification_(Evaluation).ipynb)
 Load data
-Split data
+แบ่ง Data
 สร้าง Model ทำนาย
-import
-define
-train
-evaluation
-บทที่ 7 [Clustering]
+Import
+Define
+Train
+Evaluation (classification_report, confusion_matrix, accuracy_score)
+บทที่ 7: Clustering
 
-Lecture
-(https://github.com/Thitichaya2000/DWDM21/blob/main/10ClusBasic.pdf)
-Github
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Chap_8_Clustering.ipynb)
+Clustering
 K-means
 Generate Data
 Explore data
 Clustering
-Example Application (Color Quantization)
+Import
+Define
+Fit-Predict
+Example application (Color Quantization) (ลดจำนวนสีของภาพ)
 นับจำนวนสี
 จัดกลุ่มสีให้เหลือ 16 สี
+แปลงข้อมูลให้อยู่ในรูป row-column
 ใช้ centroid เป็นตัวแทนของสี
-Hierachical Clustering
-Clustering Evaluation
+การแทนสีคืนลงไป
 MiniExam
 
-(https://github.com/Thitichaya2000/DWDM21/blob/main/MiniExam.ipynb)
-Project
+Data flights and airports Case
+หารัฐที่มีจำนวนเครื่องบินขาออกมากที่สุดและน้อยที่สุด
+สายการบินอะไรมีความล่าช้ามากที่สุดและน้อยที่สุด
+เปรียบเทียบความล่าช้าของการบินในแต่ละวัน
+Project Group
 
-Powerpoint
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Final%20Project%20%E0%B8%81%E0%B8%A5%E0%B8%B8%E0%B9%88%E0%B8%A1%E0%B8%A5%E0%B8%B9%E0%B8%81%E0%B8%AB%E0%B8%A1%E0%B8%B5.pdf)
-Github
-(https://github.com/Thitichaya2000/DWDM21/blob/main/Project_lookmhee.ipynb)
+Project Group
+Data and Preprocessing
+ปัญหา
+Association Rules
+Classification
+Split Data
+Decision Tree
+KNN
+Neural Network
+Retrain & Evaluate
+Visualization
+เปรียบเทียบจำนวนสินค้าที่ขายได้ในแต่ล่ะ category
+เปรียบเทียบ ราคา,ค่าส่ง,ความสูง,ความยาว,น้ำหนัก และ ความกว้าง เฉลี่ย ของแต่ล่ะ category
+Slide นำเสนอ
