@@ -25,7 +25,7 @@ Chuangchai Janmanee 623020519-5
 
 # สารบัญ
 * บทที่ 1: Introduction
-  * [Introduction](www) (บรรยาย)
+  * [Introduction](https://github.com/chuangchai49097/DWDM21/blob/main/Chapter%201) (บรรยาย)
     * Data Warehouse & Data Mining
       * Data Mining (การทำเหมืองข้อมูล)
         * Knowledge Discovery (KDD) Process
@@ -34,7 +34,7 @@ Chuangchai Janmanee 623020519-5
  
 * บทที่ 2: Getting to Know Your Data
   * [มิติของ Data](www) (บรรยาย)
-  * [Basic Python](www).ipynb)
+  * [Basic Python](https://github.com/chuangchai49097/DWDM21/blob/main/Data102(Chapter2).ipynb).ipynb)
     * Varibles
     * Casting
     * Data Structure (list)
@@ -85,7 +85,7 @@ Chuangchai Janmanee 623020519-5
       * Distance of Binary Value
       
 * บทที่ 3: Data Preprocessig
-  * [Data Preprocessig](wwwww)
+  * [Data Preprocessig](https://github.com/chuangchai49097/DWDM21/blob/main/Data_Preprocessing_(Chapter_3).ipynb)
     * การชี้ข้อมูลในตาราง
       * ชี้แบบธรรมดา [ชื่อคอลัมน์][index]
       * ชี้แบบ .iloc[] (มองข้อมูลเป็น matrix)
@@ -134,14 +134,14 @@ Chuangchai Janmanee 623020519-5
       * Apriori
 
 * บทที่ 6: Classification
-  * [Classification: Basic Concepts](wwwww) (บรรยาย)
+  * [Classification: Basic Concepts](https://github.com/chuangchai49097/DWDM21/blob/main/Chapter6_Association_Rules.ipynb) (บรรยาย)
     * Supervised vs Unsupervised Learning
     * Clssification vs Numeric Prediction
     * Classification-Model Construction, Validation and Testing
     * Decision Tree Induction
     * Information Gain
-  * [Decision Tree คำนวนมือ](wwwww) (บรรยาย การบ้าน)
-  * [Decision Tree](wwww)
+  * [Decision Tree คำนวนมือ](https://github.com/chuangchai49097/DWDM21/blob/main/41%20(1).pdf) (บรรยาย การบ้าน)
+  * [Decision Tree](https://github.com/chuangchai49097/DWDM21/blob/main/Chapter7_Classification_(Decision_Tree).ipynb)
     * Load Data
     * Train Model
       * import (เรียกใช้ algorithm ที่เราต้องการ)
@@ -158,7 +158,7 @@ Chuangchai Janmanee 623020519-5
       * ต้นไม้ที่ใช้เกณฑ์ Gini มีใบไม่เกิน 25 ใบ
       * ต้นไม้ที่ใช้เกณฑ์ Entropy และใช้การ split แบบ random
       * ต้นไม้ที่ใช้เกณฑ์ Entropy และ ใช้การ split แบบ random และ ข้อมูลที่อยู่ในใบขั้นต่ำ = 2 และ เริ่ม random ที่จุดที่ 6
-  * [K-Nearest Neighbor & Neural Network](wwww)
+  * [K-Nearest Neighbor & Neural Network](https://github.com/chuangchai49097/DWDM21/blob/main/Chapter7_Classification_(KNN_NN).ipynb)
     * Load data
     * Split Data
     * K-Nearest Neighbor (KNN)
@@ -172,7 +172,7 @@ Chuangchai Janmanee 623020519-5
       * inport
       * Define
       * Train-Test
-  * [Evaluation](wwww)
+  * [Evaluation](https://github.com/chuangchai49097/DWDM21/blob/main/Chap7_Classification_(Evaluation).ipynb)
     * Load data
     * แบ่ง Data
     * สร้าง Model ทำนาย
@@ -198,13 +198,13 @@ Chuangchai Janmanee 623020519-5
       * การแทนสีคืนลงไป
 
 * MiniExam
-  * [Data flights and airports Case](wwww)
+  * [Data flights and airports Case](https://github.com/chuangchai49097/DWDM21/blob/main/MiniExam.ipynb)
     * หารัฐที่มีจำนวนเครื่องบินขาออกมากที่สุดและน้อยที่สุด
     * สายการบินอะไรมีความล่าช้ามากที่สุดและน้อยที่สุด
-    * เปรียบเทียบความล่าช้าของการบินในแต่ละวัน
+    * โจทย์กำหนดเอง - วันจันทร์-ศุกร์ มีเครื่องบินขาออกของรัฐไหนมากที่สุด
  
 * Project Group
-  * [Project Group](wwww)
+  * [Project Group](https://github.com/chuangchai49097/DWDM21/blob/main/Project_Final2.ipynb)
     * Data and Preprocessing
     * ปัญหา
       * Association Rules
@@ -217,4 +217,4 @@ Chuangchai Janmanee 623020519-5
       * Visualization
         * เปรียบเทียบจำนวนสินค้าที่ขายได้ในแต่ล่ะ category
         * เปรียบเทียบ ราคา,ค่าส่ง,ความสูง,ความยาว,น้ำหนัก และ ความกว้าง เฉลี่ย ของแต่ล่ะ category
-   * [Slide นำเสนอ](wwww)
+   * [Slide นำเสนอ](https://github.com/chuangchai49097/DWDM21/blob/main/Project.pdf)
