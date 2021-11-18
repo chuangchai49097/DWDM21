@@ -1,7 +1,7 @@
 # DWDM21
 DAta Warehouse &amp; Data Mining
 
-Chuangchai Janmanee 623020519-5
+ช่วงชัย จันทร์มณี 623020519-5
 
 # Group Name:
 #### 1 นายชยากร จันทร์ลุน 623020517-9
