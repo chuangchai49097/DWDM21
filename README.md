@@ -13,24 +13,14 @@ Chuangchai Janmanee 623020519-5
 # DWDM21
 ### Data Warehouse & Data Mining 2021
 
-**นายจิตรกร จันทะสี 623021044-1**
-
-*Group Name*: **แมวส้มสร้างตัว**
-1. จิตรกร จันทะสี
-2. คำแสน แก้วพิภพ
-3. วานิตา สมเด็จ
-4. อาธิติยา ธรรมวงษา
-5. กรกนก สังฆพันธ์
-
-
 # สารบัญ
 * บทที่ 1: Introduction
   * [Introduction](https://github.com/chuangchai49097/DWDM21/blob/main/Chapter%201) (บรรยาย)
     * Data Warehouse & Data Mining
       * Data Mining (การทำเหมืองข้อมูล)
-        * Knowledge Discovery (KDD) Process
-        * ขั้นตอนการทำเหมืองข้อมูล
-        * เทคนิคของ Data Mining
+      * Knowledge Discovery (KDD) Process
+      * ขั้นตอนการทำเหมืองข้อมูล
+      * เทคนิคของ Data Mining
  
 * บทที่ 2: Getting to Know Your Data
   * [มิติของ Data](www) (บรรยาย)
@@ -38,37 +28,37 @@ Chuangchai Janmanee 623020519-5
     * Varibles
     * Casting
     * Data Structure (list)
-      * วิธีสร้าง list ว่าง
-      * เติมค่าลงใน list (.append())
-      * การชี้ค่าใน list (indexing)
-      * list slicing
-      * format string
-    * Loop
-      * Nested loop
-    * Condition (if statment)
-    * Function
-      * normal
-      * ไม่มี input
-      * ไม่มี output
-      * ไม่มีทั้ง input และ output
-      * ลักษณะของ input (parameter)
+     * วิธีสร้าง list ว่าง
+     * เติมค่าลงใน list (.append())
+     * การชี้ค่าใน list (indexing)
+     * list slicing
+     * format string
+   * Loop
+     * Nested loop
+   * Condition (if statment)
+   * Function
+     * normal
+     * ไม่มี input
+     * ไม่มี output
+     * ไม่มีทั้ง input และ output
+     * ลักษณะของ input (parameter)
   * [Pandas](wwww)
-    * Read Data
-      * .head() & .tail() (ดูหัวตาราง ท้ายตาราง)
-    * Boxplot
-    * Time Series plot
+   * Read Data
+  * .head() & .tail() (ดูหัวตาราง ท้ายตาราง)
+   * Boxplot
+   * Time Series plot
   * [Visualization](wwww)
     * Scatter plot
-      * Normal
-      * กำหนดขนาดจุด
-      * กำหนดสี
-      * เปลี่ยนลักษณะของจุดเป็นอย่างอื่น
+     * Normal
+     * กำหนดขนาดจุด
+     * กำหนดสี
+     * เปลี่ยนลักษณะของจุดเป็นอย่างอื่น
     * Plot (เป็นการพล็อตกราฟที่เชื่อมกัน)
     * Bar Chart
       * Grouped Barchart (พล็อตเทียบด้านข้าง)
       * Stacked Barchart (พล็อตเทียบในแท่งเดียวกัน)
     * Histogram
-  * [Distance Numpy](wwww)
+  * [Distance Numpy]
     * Numpy Array
       * สร้าง numpy array (matrix)
       * matrix transpose
@@ -117,22 +107,18 @@ Chuangchai Janmanee 623020519-5
 * บทที่ 4: Data Warehousing and On-line Analytical Processing
 
 * บทที่ 5: Association Rules
-  * [Mining Frequent Patterns, Association and Correlations](wwwww) (บรรยาย)
+  * [Mining Frequent Patterns, Association and Correlations](https://github.com/chuangchai49097/DWDM21/blob/main/%E0%B8%9A%E0%B8%97%E0%B8%97%E0%B8%B5%E0%B9%88%205.pdf) (บรรยาย)
     * What Is Pattern Discovery
     * Basic Concepts
     * Apriori
-  * [Data 'reduced_marketbasket' Case](wwwww)
+  * [Data 'reduced_marketbasket' Case]
     * HW
       * มีประเทศสาขาของ Supermarket นี้ทั้งหมดกี่ประเทศ
       * วาดกราฟสรุปจำนวน items และ ยอดขายของแต่ละประเทศ
-        * เพิ่มคอลัมน์ ยอดขาย (Quantity x UnitPrice)
-        * จัดกลุ่มและหายอดขายรวม
-        * จัดกลุ่มและหายอดขายรวม
-    * เรียนต่อ
-      * ลบ records ที่ถูก cancel ออกไป
-      * เตรียม data สำหรับ (Fequence Pattern) Association Rule
-      * Apriori
-
+      * เพิ่มคอลัมน์ ยอดขาย (Quantity x UnitPrice)
+      * จัดกลุ่มและหายอดขายรวม
+      * จัดกลุ่มและหายอดขายรวม
+  
 * บทที่ 6: Classification
   * [Classification: Basic Concepts](https://github.com/chuangchai49097/DWDM21/blob/main/Chapter6_Association_Rules.ipynb) (บรรยาย)
     * Supervised vs Unsupervised Learning
