@@ -17,13 +17,9 @@ Chuangchai Janmanee 623020519-5
 * บทที่ 1: Introduction
   * [Introduction](https://github.com/chuangchai49097/DWDM21/blob/main/Chapter%201) (บรรยาย)
     * Data Warehouse & Data Mining
-      * Data Mining (การทำเหมืองข้อมูล)
-      * Knowledge Discovery (KDD) Process
-      * ขั้นตอนการทำเหมืองข้อมูล
-      * เทคนิคของ Data Mining
  
 * บทที่ 2: Getting to Know Your Data
-  * [มิติของ Data](www) (บรรยาย)
+  * [มิติของ Data](https://github.com/chuangchai49097/DWDM21/blob/main/Hw2) (บรรยาย)
   * [Basic Python](https://github.com/chuangchai49097/DWDM21/blob/main/Data102(Chapter2).ipynb).ipynb)
     * Varibles
     * Casting
@@ -33,21 +29,19 @@ Chuangchai Janmanee 623020519-5
      * การชี้ค่าใน list (indexing)
      * list slicing
      * format string
-   * Loop
      * Nested loop
-   * Condition (if statment)
    * Function
      * normal
      * ไม่มี input
      * ไม่มี output
      * ไม่มีทั้ง input และ output
      * ลักษณะของ input (parameter)
-  * [Pandas](wwww)
+  * [Pandas]
    * Read Data
   * .head() & .tail() (ดูหัวตาราง ท้ายตาราง)
    * Boxplot
    * Time Series plot
-  * [Visualization](wwww)
+  * [Visualization]
     * Scatter plot
      * Normal
      * กำหนดขนาดจุด
@@ -113,11 +107,6 @@ Chuangchai Janmanee 623020519-5
     * Apriori
   * [Data 'reduced_marketbasket' Case]
     * HW
-      * มีประเทศสาขาของ Supermarket นี้ทั้งหมดกี่ประเทศ
-      * วาดกราฟสรุปจำนวน items และ ยอดขายของแต่ละประเทศ
-      * เพิ่มคอลัมน์ ยอดขาย (Quantity x UnitPrice)
-      * จัดกลุ่มและหายอดขายรวม
-      * จัดกลุ่มและหายอดขายรวม
   
 * บทที่ 6: Classification
   * [Classification: Basic Concepts](https://github.com/chuangchai49097/DWDM21/blob/main/Chapter6_Association_Rules.ipynb) (บรรยาย)
@@ -148,41 +137,23 @@ Chuangchai Janmanee 623020519-5
     * Load data
     * Split Data
     * K-Nearest Neighbor (KNN)
-      * Trian Model
-        * import
-        * knn1 (ถามเพื่อนบ้านที่ใกล้สุด 3 คน และเชื่อทุกคนเท่าๆ กัน)
-        * knn2 (ถามเพื่อนบ้านที่ใกล้ที่สุด 10 คน และเชือคนที่อยู่ใกล้มากกว่าอยู่ไกล)
-        * knn3 (เชื่อเพื่อนบ้านที่ใกล้ที่สุด 1 คน)
     * Retrain & Evaluate
     * Neural Network
-      * inport
-      * Define
-      * Train-Test
+
   * [Evaluation](https://github.com/chuangchai49097/DWDM21/blob/main/Chap7_Classification_(Evaluation).ipynb)
     * Load data
     * แบ่ง Data
     * สร้าง Model ทำนาย
-      * Import
-      * Define
-      * Train
     * Evaluation (classification_report, confusion_matrix, accuracy_score)
 
 * บทที่ 7: Clustering
-  * [Clustering](wwww)
+  * [Clustering](https://github.com/chuangchai49097/DWDM21/blob/main/Chapter8_Clustering.ipynb)
     * K-means
-      * Generate Data
-      * Explore data
+      
     * Clustering
-      * Import
-      * Define
-      * Fit-Predict
+     
     * Example application (Color Quantization) (ลดจำนวนสีของภาพ)
-      * นับจำนวนสี
-      * จัดกลุ่มสีให้เหลือ 16 สี
-      * แปลงข้อมูลให้อยู่ในรูป row-column
-      * ใช้ centroid เป็นตัวแทนของสี
-      * การแทนสีคืนลงไป
-
+     
 * MiniExam
   * [Data flights and airports Case](https://github.com/chuangchai49097/DWDM21/blob/main/MiniExam.ipynb)
     * หารัฐที่มีจำนวนเครื่องบินขาออกมากที่สุดและน้อยที่สุด
@@ -192,15 +163,5 @@ Chuangchai Janmanee 623020519-5
 * Project Group
   * [Project Group](https://github.com/chuangchai49097/DWDM21/blob/main/Project_Final2.ipynb)
     * Data and Preprocessing
-    * ปัญหา
-      * Association Rules
-      * Classification
-        * Split Data
-        * Decision Tree
-        * KNN
-        * Neural Network
-        * Retrain & Evaluate
-      * Visualization
-        * เปรียบเทียบจำนวนสินค้าที่ขายได้ในแต่ล่ะ category
-        * เปรียบเทียบ ราคา,ค่าส่ง,ความสูง,ความยาว,น้ำหนัก และ ความกว้าง เฉลี่ย ของแต่ล่ะ category
-   * [Slide นำเสนอ](https://github.com/chuangchai49097/DWDM21/blob/main/Project.pdf)
+    
+  * [Slide นำเสนอ](https://github.com/chuangchai49097/DWDM21/blob/main/Project.pdf)
